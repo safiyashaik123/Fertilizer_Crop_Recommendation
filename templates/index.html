@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Crop Advisor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #2e7d32;
+            --secondary: #81c784;
+            --accent: #f9a825;
+            --light: #f1f8e9;
+            --dark: #1b5e20;
+            --gray: #e8f5e9;
+            --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background-color: var(--light);
+            color: #333;
+            background-image: url('/api/placeholder/1200/600');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+        }
+
+        .page-container {
+            min-height: 100vh;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(255, 255, 255, 0.85);
+        }
+
+        .container {
+            width: 100%;
+            max-width: 900px;
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            background: linear-gradient(135deg, var(--primary), var(--dark));
+            color: white;
+            padding: 25px 30px;
+            text-align: center;
+            position: relative;
+        }
+
+        .header h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .header p {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .form-section {
+            flex: 1;
+            padding: 30px;
+            min-width: 300px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        /* Fixed icon positioning */
+        .input-wrapper {
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+
+        .form-icon {
+            position: absolute;
+            left: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--primary);
+            z-index: 2;
+            font-size: 16px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #444;
+            font-size: 14px;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 12px 12px 12px 40px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 15px;
+            transition: all 0.3s;
+        }
+
+        input:focus, select:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(46, 125, 50, 0.2);
+        }
+
+        .columns {
+            display: flex;
+            gap: 20px;
+        }
+
+        .column {
+            flex: 1;
+        }
+
+        .soil-types {
+            margin-top: 5px;
+            font-size: 13px;
+            color: #666;
+        }
+
+        button {
+            background: var(--primary);
+            color: white;
+            padding: 14px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            width: 100%;
+            transition: all 0.3s;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+
+        button:hover {
+            background: var(--dark);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow);
+        }
+
+        .result {
+            background-color: var(--gray);
+            border-radius: 12px;
+            padding: 25px;
+            margin-top: 30px;
+            border-left: 5px solid var(--accent);
+        }
+
+        .result h2 {
+            color: var(--dark);
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .result p {
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+        }
+
+        .result-icon {
+            background-color: var(--secondary);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 15px;
+            color: white;
+        }
+
+        .info-section {
+            flex: 1;
+            background-color: var(--gray);
+            padding: 30px;
+            min-width: 300px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .info-box {
+            background-color: white;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: var(--shadow);
+        }
+
+        .info-box h3 {
+            color: var(--dark);
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .info-divider {
+            height: 1px;
+            background-color: #e0e0e0;
+            margin: 25px 0;
+        }
+
+        /* Decorative elements */
+        .leaf-decoration {
+            position: absolute;
+            font-size: 180px;
+            color: rgba(46, 125, 50, 0.05);
+            z-index: 0;
+        }
+
+        .leaf-top-right {
+            top: -40px;
+            right: -30px;
+            transform: rotate(45deg);
+        }
+
+        .leaf-bottom-left {
+            bottom: -40px;
+            left: -30px;
+            transform: rotate(225deg);
+        }
+
+        /* Better icon choices for specific inputs */
+        .icon-nitrogen {color: #4CAF50;}
+        .icon-phosphorous {color: #FF9800;}
+        .icon-potassium {color: #9C27B0;}
+        .icon-temperature {color: #F44336;}
+        .icon-humidity {color: #2196F3;}
+        .icon-ph {color: #607D8B;}
+        .icon-rainfall {color: #00BCD4;}
+        .icon-soil {color: #795548;}
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .content {
+                flex-direction: column;
+            }
+
+            .columns {
+                flex-direction: column;
+                gap: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page-container">
+        <div class="container">
+            <div class="header">
+                <i class="fas fa-seedling leaf-decoration leaf-top-right"></i>
+                <h1>Smart Crop Advisor</h1>
+                <p>Get personalized crop and fertilizer recommendations based on your soil data</p>
+            </div>
+
+            <div class="content">
+                <div class="form-section">
+                    <form method="POST" action="/">
+                        <div class="columns">
+                            <div class="column">
+                                <div class="form-group">
+                                    <label for="nitrogen">Nitrogen (N) Content (kg/ha)</label>
+                                    <div class="input-wrapper">
+                                        <i class="fas fa-flask form-icon icon-nitrogen"></i>
+                                        <input type="number" step="0.1" id="nitrogen" name="nitrogen"
+                                            value="{{ form_data.nitrogen if form_data else '' }}" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="form-group">
+                                    <label for="phosphorous">Phosphorous (P) Content (kg/ha)</label>
+                                    <div class="input-wrapper">
+                                        <i class="fas fa-vial form-icon icon-phosphorous"></i>
+                                        <input type="number" step="0.1" id="phosphorous" name="phosphorous"
+                                            value="{{ form_data.phosphorous if form_data else '' }}" required>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="columns">
+                            <div class="column">
+                                <div class="form-group">
+                                    <label for="pottasium">Potassium (K) Content (kg/ha)</label>
+                                    <div class="input-wrapper">
+                                        <i class="fas fa-atom form-icon icon-potassium"></i>
+                                        <input type="number" step="0.1" id="pottasium" name="pottasium"
+                                            value="{{ form_data.pottasium if form_data else '' }}" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="form-group">
+                                    <label for="temperature">Temperature (°C)</label>
+                                    <div class="input-wrapper">
+                                        <i class="fas fa-temperature-high form-icon icon-temperature"></i>
+                                        <input type="number" step="0.1" id="temperature" name="temperature"
+                                            value="{{ form_data.temperature if form_data else '' }}" required>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="columns">
+                            <div class="column">
+                                <div class="form-group">
+                                    <label for="humidity">Relative Humidity (%)</label>
+                                    <div class="input-wrapper">
+                                        <i class="fas fa-tint form-icon icon-humidity"></i>
+                                        <input type="number" step="0.1" id="humidity" name="humidity"
+                                            value="{{ form_data.humidity if form_data else '' }}" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="form-group">
+                                    <label for="ph">Soil pH (0-14)</label>
+                                    <div class="input-wrapper">
+                                        <i class="fas fa-chart-bar form-icon icon-ph"></i>
+                                        <input type="number" step="0.1" min="0" max="14" id="ph" name="ph"
+                                            value="{{ form_data.ph if form_data else '' }}" required>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="columns">
+                            <div class="column">
+                                <div class="form-group">
+                                    <label for="rainfall">Rainfall (mm)</label>
+                                    <div class="input-wrapper">
+                                        <i class="fas fa-cloud-rain form-icon icon-rainfall"></i>
+                                        <input type="number" step="0.1" id="rainfall" name="rainfall"
+                                            value="{{ form_data.rainfall if form_data else '' }}" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="form-group">
+                                    <label for="soil_type">Soil Type</label>
+                                    <div class="input-wrapper">
+                                        <i class="fas fa-mountain form-icon icon-soil"></i>
+                                        <select id="soil_type" name="soil_type" required>
+                                            <option value="Black" {% if form_data and form_data.soil_type == 'Black' %}selected{% endif %}>Black Soil</option>
+                                            <option value="Clay" {% if form_data and form_data.soil_type == 'Clay' %}selected{% endif %}>Clay Soil</option>
+                                            <option value="Loamy" {% if form_data and form_data.soil_type == 'Loamy' %}selected{% endif %}>Loamy Soil</option>
+                                            <option value="Red" {% if form_data and form_data.soil_type == 'Red' %}selected{% endif %}>Red Soil</option>
+                                            <option value="Sandy" {% if form_data and form_data.soil_type == 'Sandy' %}selected{% endif %}>Sandy Soil</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="submit"><i class="fas fa-leaf"></i> Get Recommendation</button>
+
+                        {% if recommendation %}
+                        <div class="result">
+                            <h2><i class="fas fa-check-circle"></i> Your Recommendation</h2>
+                            <p>
+                                <div class="result-icon"><i class="fas fa-seedling"></i></div>
+                                <strong>Recommended Crop:</strong> {{ crop }}
+                            </p>
+                            <p>
+                                <div class="result-icon"><i class="fas fa-bottle-water"></i></div>
+                                <strong>Recommended Fertilizer:</strong> {{ fertilizer }}
+                            </p>
+                        </div>
+                        {% endif %}
+                    </form>
+                </div>
+
+                <div class="info-section">
+                    <i class="fas fa-seedling leaf-decoration leaf-bottom-left"></i>
+                    <div class="info-box">
+                        <h3><i class="fas fa-info-circle"></i> How It Works</h3>
+                        <p>Our advanced algorithm analyzes your soil properties and environmental conditions to recommend the most suitable crop and fertilizer for optimal yield.</p>
+                    </div>
+
+                    <div class="info-box">
+                        <h3><i class="fas fa-lightbulb"></i> Tips</h3>
+                        <ul style="padding-left: 20px;">
+                            <li>Ensure accurate soil test results for better recommendations</li>
+                            <li>Consider seasonal variations in temperature and rainfall</li>
+                            <li>Regular soil testing helps maintain optimal nutrient levels</li>
+                        </ul>
+                    </div>
+
+                    <div class="info-divider"></div>
+
+                    <div class="info-box">
+                        <h3><i class="fas fa-chart-line"></i> Benefits</h3>
+                        <p>Using our Smart Crop Advisor can help:</p>
+                        <ul style="padding-left: 20px;">
+                            <li>Increase crop yield by up to 30%</li>
+                            <li>Reduce fertilizer wastage and costs</li>
+                            <li>Practice sustainable farming methods</li>
+                            <li>Make data-driven agricultural decisions</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

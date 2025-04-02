@@ -1,0 +1,210 @@
+Nitrogen,Phosphorous,Pottasium,Humidity,Rainfall,Ph,Soil_Type,Temperature,Crop_Name,Fertilizer_Name
+90,42,43,82.00274423,202.9355362,6.502985292,Silt,20.87974371,Rice,Fertilizer is not required
+85,58,41,80.31964408,226.6555374,7.038096361,Clay,21.77046169,Rice,Fertilizer is not required
+60,55,44,82.3207629,263.9642476,7.840207144,Clay,23.00445915,Rice,Fertilizer is not required
+74,35,40,80.15836264,242.8640342,6.980400905,Silt,26.49109635,Rice,Fertilizer is not required
+78,42,42,81.60487287,262.7173405,7.628472891,Clay,20.13017482,Rice,Fertilizer is not required
+71,54,16,63.69070564,87.75953857,5.749914421,Sandy,22.61359953,Maize,Fertilizer is not required
+61,44,17,71.57476937,102.2662445,6.931756558,Clay,26.10018422,Maize,Fertilizer is not required
+80,43,16,71.59351368,66.71995467,6.657964753,Silt,23.55882094,Maize,Fertilizer is not required
+73,58,21,57.68272924,60.65171481,6.596060648,Sandy,19.97215954,Maize,Fertilizer is not required
+61,38,20,62.69503871,65.43835393,5.970458434,Clay,18.47891261,Maize,Fertilizer is not required
+40,72,77,16.98861173,88.55123143,7.485996067,Sandy,17.02498456,Chickpea,Fertilizer is not required
+23,72,84,17.13159126,79.92698081,6.920251378,Clay,19.02061277,Chickpea,Fertilizer is not required
+39,58,85,15.40589717,68.54932919,5.996932037,Deep Black,17.88776475,Chickpea,Fertilizer is not required
+22,72,85,15.65809214,88.51048983,6.391173589,Deep Black,18.86805647,Chickpea,Fertilizer is not required
+36,67,77,19.56381041,79.26357665,7.152811172,Clay,18.36952567,Chickpea,Fertilizer is not required
+13,60,25,20.59541693,128.256862,5.68597166,Loamy,17.13692774,Kidneybeans,Fertilizer is not required
+25,70,16,18.90705639,106.3598183,5.759237003,Loamy,19.63474332,Kidneybeans,Fertilizer is not required
+31,55,22,21.33953114,109.225556,5.873171894,Loamy,22.91350245,Kidneybeans,Fertilizer is not required
+40,64,16,24.24045875,140.3717815,5.926676985,Loamy,16.43340342,Kidneybeans,Fertilizer is not required
+42,61,20,23.02251117,76.64128258,5.95561668,Loamy,22.13974653,Kidneybeans,Fertilizer is not required
+37,72,24,57.92887167,122.6539694,6.03160778,Sandy,36.51268371,Pigeonbeans,Fertilizer is not required
+40,59,23,62.73178224,163.7266551,5.269084669,Sandy,36.89163721,Pigeonbeans,Fertilizer is not required
+33,73,23,59.38967583,103.3301803,5.985792703,Clay,29.23540524,Pigeonbeans,Fertilizer is not required
+27,57,24,43.35795962,142.3303677,6.09186275,Clay,27.33534897,Pigeonbeans,Fertilizer is not required
+30,79,18,55.46985938,184.6226709,5.624731338,Loamy,21.0643684,Pigeonbeans,Fertilizer is not required
+22,59,23,51.27868781,36.5037914,4.371745575,Sandy Loam,27.32220619,Mothbeans,Fertilizer is not required
+36,58,25,59.3189118,36.92629678,8.399135958,Sandy Loam,28.66024187,Mothbeans,Fertilizer is not required
+34,43,18,61.09387478,72.98016599,8.840656256,Clay Loam,29.02955344,Mothbeans,Fertilizer is not required
+29,54,16,54.65030015,32.05025323,8.153022903,Clay Loam,27.78031515,Mothbeans,Fertilizer is not required
+32,43,22,54.1077461,71.6266696,5.270749441,Dry Sandy,31.99928579,Mothbeans,Fertilizer is not required
+38,54,20,80.77275974,38.7976407,7.034214276,Sandy Loam,28.3340432,Mungbeans,Fertilizer is not required
+36,55,20,84.34262707,55.296354,6.635968698,Sandy Loam,27.01470397,Mungbeans,Fertilizer is not required
+30,56,16,81.04554836,36.35720652,6.828187499,Sandy Loam,28.17432665,Mungbeans,Fertilizer is not required
+22,56,17,87.32761241,44.75215854,6.89077995,Sandy Loam,29.87888063,Mungbeans,Fertilizer is not required
+39,57,24,89.71503316,42.99498978,7.165121109,Sandy Loam,29.89232778,Mungbeans,Fertilizer is not required
+56,79,15,63.19915325,71.89090748,7.454532137,Sandy Loam,29.48439992,Blackgram,Fertilizer is not required
+25,62,21,68.13999721,67.15096376,7.040056094,Sandy Loam,26.73433965,Blackgram,Fertilizer is not required
+42,61,22,62.28814857,70.23207557,7.418650668,Clay Loam,26.27274407,Blackgram,Fertilizer is not required
+42,73,25,67.21113844,73.23573601,6.501869314,Clay Loam,34.03679184,Blackgram,Fertilizer is not required
+44,58,18,65.06601664,72.49507741,6.814410928,Clay Loam,28.03644051,Blackgram,Fertilizer is not required
+32,76,15,63.49802189,43.35795377,7.604110177,Deep sandy loam,28.05153602,Lentil,Fertilizer is not required
+33,61,22,63.27771461,46.83130119,7.728832424,Deep sandy loam,19.44084326,Lentil,Fertilizer is not required
+38,60,20,60.63872613,46.80452595,7.491217102,Deep sandy loam,29.84823072,Lentil,Fertilizer is not required
+30,74,17,69.92375891,46.6352865,6.633864582,Deep sandy loam,21.36383757,Lentil,Fertilizer is not required
+37,71,16,68.51966729,46.13833007,7.324863481,Deep sandy loam,26.28663931,Lentil,Fertilizer is not required
+42,24,38,91.63536236,111.9684622,5.922935513,Sandy,24.55981624,Pomegranate,Fertilizer is not required
+46,28,37,89.93701023,108.0458926,5.937649578,Sandy,19.65690085,Pomegranate,Fertilizer is not required
+38,26,36,87.4024767,102.5184759,6.804781106,Loamy,18.78359608,Pomegranate,Fertilizer is not required
+37,18,39,94.5110662,110.2316633,6.424670614,Loamy,24.1469628,Pomegranate,Fertilizer is not required
+40,27,38,89.90147027,109.3905998,6.738016221,Clay,22.44581266,Pomegranate,Fertilizer is not required
+91,94,46,76.24900101,92.82840911,6.149934034,Alluvial,29.36792366,Banana,Fertilizer is not required
+105,95,50,83.67675197,101.0494791,5.849076099,Alluvial,27.33368994,Banana,Fertilizer is not required
+108,92,53,82.96221306,104.9378,6.276800323,Volcanic,27.40053601,Banana,Fertilizer is not required
+86,76,54,80.11585705,90.10978128,5.926824754,Volcanic,29.3159075,Banana,Fertilizer is not required
+80,77,49,79.39654531,113.2297373,5.519088423,Volcanic,26.05433004,Banana,Fertilizer is not required
+32,40,27,47.54885174,90.09586854,5.954626604,Red loamy,29.73770045,Mango,Fertilizer is not required
+39,24,31,53.72979826,98.67527561,4.757114897,Red loamy,33.55695561,Mango,Fertilizer is not required
+21,26,27,47.67525434,95.85118326,5.699586972,Alluvial,27.00315545,Mango,Fertilizer is not required
+25,22,25,45.53556603,95.70525913,5.977413803,Alluvial,33.56150184,Mango,Fertilizer is not required
+40,21,32,54.25964196,92.19721736,6.430139436,Clay,35.89855625,Mango,Fertilizer is not required
+24,130,195,81.54156612,67.12534492,6.112305667,Clay,29.99677232,Grapes,Fertilizer is not required
+13,144,204,82.42614055,68.38135469,6.092241627,Clay,30.7280404,Grapes,Fertilizer is not required
+22,123,205,83.88504863,68.73932528,5.896343436,Loamy,32.44577836,Grapes,Fertilizer is not required
+36,125,196,80.65968681,66.83872293,6.15526103,Loamy,37.46566825,Grapes,Fertilizer is not required
+24,131,196,83.74372787,65.34440794,5.732453638,Sandy,22.03296178,Grapes,Fertilizer is not required
+119,25,51,80.92254421,53.65742581,6.283818329,Sandy,26.47330219,Watermelon,Fertilizer is not required
+119,19,55,83.44621709,46.87420883,6.818261383,Sandy,25.18780042,Watermelon,Fertilizer is not required
+105,30,50,81.77527562,57.04147057,6.37620108,Sandy,25.29954705,Watermelon,Fertilizer is not required
+114,8,50,88.30866319,57.95826144,6.581587932,Loamy,24.74631269,Watermelon,Fertilizer is not required
+93,22,52,81.32563243,41.87540028,6.932739726,Loamy,26.58740671,Watermelon,Fertilizer is not required
+115,17,55,94.11878202,28.08253201,6.776533055,Sandy,27.57826922,Muskmelon,Fertilizer is not required
+114,27,48,93.03555162,26.32405487,6.528404378,Sandy,27.82054812,Muskmelon,Fertilizer is not required
+101,25,52,94.22237826,22.52497327,6.750145572,Silt Loamy,29.09910406,Muskmelon,Fertilizer is not required
+118,18,52,90.83130708,20.76223014,6.562832807,Silt Loamy,28.04943594,Muskmelon,Fertilizer is not required
+95,26,45,94.55695552,28.16057247,6.117530021,Silt Loamy,29.91690582,Muskmelon,Fertilizer is not required
+24,128,196,90.69489172,110.4317855,5.521466996,Loamy,22.75088787,Apple,Fertilizer is not required
+27,144,197,94.34814995,114.0512495,6.133220586,Loamy,23.8494014,Apple,Fertilizer is not required
+14,128,205,94.58900601,116.0396587,6.226289556,Loamy,22.60800988,Apple,Fertilizer is not required
+28,120,201,91.13435689,122.233323,6.321152192,Loamy,21.18667419,Apple,Fertilizer is not required
+20,129,201,91.69913296,116.0777931,5.587905967,Loamy,23.41044706,Apple,Fertilizer is not required
+22,30,12,92.51077745,119.035002,6.354006744,Loamy,15.78144173,Orange,Fertilizer is not required
+37,26,13,91.50819306,101.2847738,7.511755068,Loamy,26.03097313,Orange,Fertilizer is not required
+27,13,6,91.35608208,111.2266885,7.335158382,Sandy,13.36050601,Orange,Fertilizer is not required
+32,16,9,92.04304496,114.6659511,7.813916603,Sandy,18.87957654,Orange,Fertilizer is not required
+20,27,9,91.57802915,111.1727497,7.129136941,Sandy,29.47741671,Orange,Fertilizer is not required
+61,68,50,91.49725058,243.0745066,6.793245417,Sandy Loam,35.21462816,Papaya,Fertilizer is not required
+58,46,45,90.79028064,88.46607497,6.576261427,Sandy Loam,42.39413392,Papaya,Fertilizer is not required
+45,47,55,91.14220381,119.2653877,6.751452932,Sandy Loam,38.4191628,Papaya,Fertilizer is not required
+39,65,53,92.11508608,235.6133585,6.560743093,Sandy Loam,35.33294932,Papaya,Fertilizer is not required
+31,68,45,90.07600528,196.2408242,6.938313356,Sandy Loam,42.92325255,Papaya,Fertilizer is not required
+18,30,29,92.86056895,224.5903664,6.420018717,Sandy,26.7627493,Coconut,Fertilizer is not required
+17,23,28,94.3138837,224.3206759,5.740054567,Laterite,25.61294367,Coconut,Fertilizer is not required
+13,28,33,95.64807631,151.0761899,5.686972967,Alluvial,28.130115,Coconut,Fertilizer is not required
+12,21,35,91.53720922,179.8248944,6.293662363,Black,25.02887163,Coconut,Fertilizer is not required
+10,18,35,99.64573002,181.6942283,6.381975465,Saline,27.79797651,Coconut,Fertilizer is not required
+133,47,24,79.19732001,90.8022356,7.231324765,Alluvial,24.40228894,Cotton,Fertilizer is not required
+136,36,20,84.86275707,71.29581071,6.925412377,Black,23.09595631,Cotton,Fertilizer is not required
+104,47,18,76.97696717,90.75616738,7.633437412,Red ,23.9656349,Cotton,Fertilizer is not required
+133,47,23,75.62137159,89.76050416,6.827354668,Yellow,24.88738107,Cotton,Fertilizer is not required
+126,38,23,83.63276077,88.43618918,6.176716425,Sandy Loam,25.36243778,Cotton,Fertilizer is not required
+89,47,38,72.24850829,151.8869972,6.002524871,Sandy Loam,25.52468965,Jute,Fertilizer is not required
+60,37,39,82.94164078,161.2469997,6.033485257,Sandy Loam,26.59104992,Jute,Fertilizer is not required
+63,41,45,86.8870535,196.6249511,7.121933579,Alluvial,25.29781791,Jute,Fertilizer is not required
+86,40,39,88.16513579,175.6086697,6.207459637,Alluvial,25.72100868,Jute,Fertilizer is not required
+96,41,40,72.00460848,190.4242157,6.090060478,Clay,23.58419277,Jute,Fertilizer is not required
+91,21,26,57.36469955,191.6549412,7.261313694,Deep Sandy loam,26.33377983,Coffee,Fertilizer is not required
+107,21,26,55.32222678,144.6861336,7.235070264,Deep Sandy loam,26.45288458,Coffee,Fertilizer is not required
+83,38,35,52.88667115,136.7325092,7.18915558,Deep Sandy loam,25.70822684,Coffee,Fertilizer is not required
+108,24,31,56.18107663,147.2757818,6.431899748,Laterite,24.12832546,Coffee,Fertilizer is not required
+116,28,34,60.39523266,122.2103248,6.42321105,Laterite,23.44372334,Coffee,Fertilizer is not required
+37,0,0,52,50.65,5.55,Sandy Loam,26,Maize,Urea
+12,36,0,52,95.76,6.23,Clay Loam,29,Sugarcane,DAP
+7,30,9,65,90.75616738,7.231324765,Alluvial,34,Cotton,14-35-14
+22,20,0,62,102.45,5.89,Sandy,32,Tobacco,28-28
+35,0,0,54,110.89,6.767,Alluvial,28,Paddy,Urea
+12,13,10,52,85.678,6.607,Loamy,26,Barley,17-17-17
+9,10,0,50,90.75616738,7.231324765,Alluvial,25,Cotton,20-20
+41,0,0,64,73.89,6.9,Clay Loam,33,Wheat,Urea
+21,18,0,60,40.67,6.04,Clay,30,Millets,28-28
+9,30,7,58,75.035,5.5,Loamy,29,Oil seeds,14-35-14
+13,40,0,54,67.908,6.098,Loamy,27,Pulses,DAP
+14,12,15,62,60.67,5.87,Red Loam,31,Maize,17-17-17
+36,0,0,50,71.29581071,6.925412377,Red Soil,25,Cotton,Urea
+24,22,0,62,105.89,6.543,Clay,32,Paddy,28-28
+14,41,0,52,110.567,5.98,Sandy Loam,26,Ground Nuts,DAP
+10,14,13,62,80.56,5.87,Alluvial,31,Sugarcane,17-17-17
+38,0,0,64,67.908,6.098,Clay,33,Pulses,Urea
+21,19,0,50,75.89,6.009,Clay,25,Barley,28-28
+39,0,0,54,71.29581071,6.925412377,Black Soil,28,Cotton,Urea
+13,36,0,58,68.35,6.45,Sandy,29,Wheat,DAP
+10,9,0,60,90.45,6.94,Loamy,30,Millets,20-20
+12,12,14,65,84.68,5.98,Clay Loam,34,Sugarcane,17-17-17
+11,37,0,68,105.67,6.098,Clay Loam,35,Tobacco,DAP
+36,0,0,54,50.67,6.56,Sandy,28,Millets,Urea
+13,10,0,64,130.89,6.908,Alluvial,33,Paddy,20-20
+23,20,0,52,55.67,5.67,Silt Loam,26,Maize,28-28
+9,29,9,60,90.75616738,7.633437412,Black Soil,30,Cotton,14-35-14
+38,0,0,62,120.56,6.45,Black Soil,32,Sugarcane,Urea
+12,39,0,70,60.456,6.45,Silty,37,Oil seeds,DAP
+14,13,0,52,70.789,6.234,Loamy,26,Pulses,20-20
+24,23,0,58,125.876,6.098,Sandy Loam,29,Ground Nuts,28-28
+12,40,0,60,150.56,6.98,Clay Loam,30,Sugarcane,DAP
+39,0,0,65,150.098,6.578,Loamy,34,Paddy,Urea
+7,30,9,68,80.987,7.098,Loamy,36,Barley,14-35-14
+23,19,0,52,71.56,6.89,Clay Loam,26,Wheat,28-28
+41,0,0,54,99.56,6.98,Red Soil,28,Millets,Urea
+8,31,10,60,90.75616738,7.633437412,Black Soil,30,Cotton,14-35-14
+12,41,0,70,145.871,6.345,Alluvial,37,Paddy,DAP
+15,11,14,50,130.987,6.356,Sandy Loam,25,Ground Nuts,17-17-17
+15,37,0,58,60.57,6.34,Red Soil,29,Millets,DAP
+13,13,0,54,70.789,6.234,Sandy,27,Pulses,20-20
+10,32,7,60,80.56,5.87,Laterite,30,Sugarcane,14-35-14
+22,24,0,62,110.67,6.543,Loamy,32,Tobacco,28-28
+35,0,0,65,148.98,6.89,Laterite,34,Sugarcane,Urea
+10,35,0,67,80.987,7.098,Clay Loam,35,Barley,DAP
+8,28,8,70,65.68,6.57,Clay Loam,38,Wheat,14-35-14
+12,8,0,52,59.089,5.93,Sandy,26,Oil seeds,20-20
+24,18,0,58,135.78,5.98,Sandy,29,Paddy,28-28
+41,0,0,60,139.87,6.568,Sandy Loam,30,Ground Nuts,Urea
+5,29,9,64,95.54,6.54,Alluvial,33,Maize,14-35-14
+23,21,0,65,110.67,6.543,Silt Loam,34,Tobacco,28-28
+13,14,0,68,60.567,7.53,Black Soil,36,Oil seeds,20-20
+40,0,0,54,74.6789,6.456,Loamy,28,Pulses,Urea
+12,42,0,60,80.768,6.789,Loamy,30,Barley,DAP
+11,15,12,62,90.75616738,7.633437412,Alluvial,31,Cotton,17-17-17
+23,24,0,53,85.43,6.78,Black Soil,27,Millets,28-28
+38,0,0,65,64.89,6.54,Sandy,34,Wheat,Urea
+8,15,0,58,90.45,6.87,Black Soil,29,Millets,20-20
+11,15,13,50,149.08,6.78,Clay Loam,25,Sugarcane,17-17-17
+15,37,0,62,89.087,6.456,Sandy Loam,32,Ground Nuts,DAP
+36,0,0,54,136.75,5.9,Laomy,28,Paddy,Urea
+13,9,0,60,70.45,6.87,Clay Loam,30,Wheat,20-20
+24,20,0,65,89.76050416,6.827354668,Alluvial,34,Cotton,28-28
+5,15,18,54,80.768,6.789,Clay Loam,28,Barley,10-26-26
+37,0,0,53,69.65,6.54,Silty,27,Oil seeds,Urea
+15,40,0,68,89.76050416,6.827354668,Alluvial,36,Cotton,DAP
+9,13,0,65,146.45,6.67,Alluvial,34,Sugarcane,20-20
+8,33,8,58,146.45,6.67,Alluvial,29,Sugarcane,14-35-14
+6,16,19,50,75.897,6.578,Clay,25,Pulses,10-26-26
+10,14,0,60,56.89,6.35,Red Soil,30,Millets,20-20
+21,23,0,52,75.897,6.578,Loamy,26,Pulses,28-28
+39,0,0,62,105.78,6.098,Loamy,31,Tobacco,Urea
+23,19,0,65,65.98,6.67,Sandy,34,Wheat,28-28
+42,0,0,53,65.54,6.98,Black Soil,27,Oil seeds,Urea
+13,39,0,64,67.908,5.897,Sandy Loam,33,Ground Nuts,DAP
+9,22,10,58,128.908,6.789,Alluvial,29,Paddy,14-35-14
+22,21,0,60,100.67,7.09,Sandy Loam,30,Maize,28-28
+10,15,0,53,120.56,5.98,Clay Laom,27,Sugarcane,20-20
+7,20,16,52,70.85,6.567,Loamy,26,Pulses,10-26-26
+14,38,0,65,89.76050416,6.827354668,Alluvial,34,Cotton,DAP
+10,29,8,54,110.897,5.678,Sandy,28,Paddy,14-35-14
+41,0,0,60,92.45,6.89,Clay,30,Millets,Urea
+14,35,0,58,88.43618918,6.176716425,Alluvial,29,Cotton,DAP
+11,9,0,52,130.56,6.67,Laterite,26,Sugarcane,20-20
+21,28,0,62,90.89,7.123,Loamy,31,Barley,28-28
+8,31,7,67,65.908,5.789,Loamy,35,Pulses,14-35-14
+13,16,17,58,98.67,5.08,Sandy,29,Tobacco,10-26-26
+35,0,0,53,75.46,6.58,Loamy,27,Millets,Urea
+12,19,18,68,51.9,6.02,Clay Loam,36,Wheat,10-26-26
+11,38,0,58,88.43618918,6.176716425,Alluvial,29,Cotton,DAP
+8,30,9,60,74.567,5.67,Loamy,30,Oil seeds,14-35-14
+6,21,19,65,125.678,6.89,Loamy,34,Paddy,10-26-26
+41,0,0,68,50.89,5.567,Sandy Loam,36,Ground Nuts,Urea
+9,30,10,54,96.78,6.87,Red Loam,28,Maize,14-35-14
+24,19,0,50,52.568,5.678,Sandy,25,Pulses,28-28
+4,17,17,60,100.56,5.57,Silt Loamy,30,Tobacco,10-26-26
+39,0,0,72,74.98,6.98,Loamy,38,Wheat,Urea
+15,41,0,60,78.54,6.58,Sandy,36,Millets,DAP
+12,10,0,58,140.54,6.57,Clay Loam,29,Sugarcane,20-20
